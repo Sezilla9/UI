@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sign up</title>
+    <link rel="icon" href="s-aims-icon" type= "image/x-icon">
+
+    <!-- CSS -->
+    <link href="signup.css" rel="stylesheet">
+</head>
+<body>
+    <div class="text-center">
+
+        <form class="form-signup">
+            <!-- sign-up image -->
+            <img class="mb-4" src="s-aims-logo" alt="" width="300" height="42">
+            <h1 class="h3 mb-3 font-weight-normal">Please fill in this form to create an account.</h1>
+
+            <label for="fname" class="sr-only">First Name</label>
+            <input type="text" id="fname" class="form-control" name="firstname" placeholder="First name" required>
+
+            <label for="fname" class="sr-only">Last Name</label>
+            <input type="text" id="lname" class="form-control" name="lastname" placeholder="Last name" required>
+
+            <label for="fname" class="sr-only">Username</label>
+            <input type="text" id="uname" class="form-control" name="username" placeholder="Username" required autofocus>
+
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail" class="form-control" class="form-control" placeholder="Email address" required autofocus>
+
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+            <label for="RepeatPassword" class="sr-only">Repeat Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Repeat your Password" required>
+
+            <div class="form-account">
+                <label for="ControlSelect">Which one describes you?</label>
+                <select class="form-control-lg" id="ControlSelect">
+                  <option>Admin</option>
+                  <option>Instructor</option>
+                </select>
+            </div>
+
+            <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+            </div>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+
+          <a class="dropdown-item" >Already have an account? <a href="sign-in.html">Sign in</a>
+
+          <p class="mt-5 mb-3 text-muted">Powered by TechMorph &copy; 2023</p>
+        </form>
+</body>
+</html>
